@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <nav>
+        <!-- Navigation bar with links, search bar, and buttons -->
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button onclick="search()">Search</button>
+        <button onclick="reset()">Reset</button>
+    </nav>
+
+    <section id="home">
+        <!-- Home page content -->
+        <div class="background-image"></div>
+        <div class="intro">
+            <h1>Welcome to Travel Recommendation</h1>
+            <p>Explore our recommendations for your next adventure!</p>
+        </div>
+        <div class="social-icons">
+            <!-- Social media icons can be added here -->
+        </div>
+    </section>
+
+    <section id="about">
+        <!-- About Us page content -->
+        <h2>About Us</h2>
+        <p>Company information...</p>
+        <h3>Our Team</h3>
+        <ul>
+            <li>John Doe - CEO</li>
+            <li>Jane Smith - CTO</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <!-- Contact Us page content -->
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
